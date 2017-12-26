@@ -712,6 +712,7 @@ class SideBarFindFilesPathContainingCommand(sublime_plugin.WindowCommand):
         view.run_command("insert", {"characters": "Type to search: "})
         view.sel().clear()
         view.sel().add(sublime.Region(16, 16))
+        view.settings().set("result_file_regex", r"^((?:[A-Z]:)?(?:/|\\).+?)$")
         view.settings().set("sidebar_instant_search_paths", paths)
 
     def is_enabled(self, paths=[]):
