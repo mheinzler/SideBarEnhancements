@@ -353,13 +353,6 @@
 		]
 	},
 	{"caption": "-", "id": "side-bar-clip-separator"},
-	{
-		"caption": "Duplicate…",
-		"id": "side-bar-duplicate",
-		"command": "side_bar_duplicate",
-		"args": {"paths": []}
-	},
-	{"caption": "-", "id": "side-bar-duplicate-separator"},
 
 	{
 		"caption": "Rename…",
@@ -373,7 +366,14 @@
 		"command": "side_bar_move",
 		"args": {"paths": []}
 	},
+	{
+		"caption": "Duplicate…",
+		"id": "side-bar-duplicate",
+		"command": "side_bar_duplicate",
+		"args": {"paths": []}
+	},
 	{"caption": "-", "id": "side-bar-rename-move-separator"},
+	{"caption": "-", "id": "side-bar-duplicate-separator"},
 
 	{
 		"caption": "Delete",
