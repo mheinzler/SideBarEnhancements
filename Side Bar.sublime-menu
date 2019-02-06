@@ -39,6 +39,139 @@
 	},
 	{"caption": "-", "id": "side-bar-save-close-views-separator"},
 	{
+		"caption": "Open In New Window",
+		"id": "side-bar-open-in-new-window",
+		"command": "side_bar_open_in_new_window",
+		"args": {"paths": []}
+	},
+	{
+		"caption": "Open With",
+		"id": "side-bar-files-open-with",
+
+		"children": [
+			{"caption": "-", "id": "side-bar-files-open-with-edit-application-separator"},
+			{
+				"caption": "Open / Run",
+				"id": "side-bar-open",
+				"command": "side_bar_open",
+				"args": {"paths": []}
+			},
+			{
+				"caption": "Open In Browser",
+				"id": "side-bar-open-in-browser",
+				"children": [
+					{
+						"caption": "Default",
+						"command": "side_bar_open_in_browser",
+						"args": {"paths": []}
+					},
+					{"caption": "-"
+					},
+					{
+						"caption": "Firefox",
+						"command": "side_bar_open_in_browser",
+						"args": {
+							"paths": [],
+							"type": "testing",
+							"browser": "firefox"
+						}
+					},
+					{
+						"caption": "Firefox Developer Edition",
+						"command": "side_bar_open_in_browser",
+						"args": {
+							"paths": [],
+							"type": "testing",
+							"browser": "firefox-developer-edition"
+						}
+					},
+					{"caption": "-"
+					},
+					{
+						"caption": "Chromium",
+						"command": "side_bar_open_in_browser",
+						"args": {
+							"paths": [],
+							"type": "testing",
+							"browser": "chromium"
+						}
+					},
+					{
+						"caption": "Chrome",
+						"command": "side_bar_open_in_browser",
+						"args": {
+							"paths": [],
+							"type": "testing",
+							"browser": "chrome"
+						}
+					},
+					{
+						"caption": "Canary",
+						"command": "side_bar_open_in_browser",
+						"args": {
+							"paths": [],
+							"type": "testing",
+							"browser": "canary"
+						}
+					},
+					{"caption": "-"
+					},
+					{
+						"caption": "Opera",
+						"command": "side_bar_open_in_browser",
+						"args": {
+							"paths": [],
+							"type": "testing",
+							"browser": "opera"
+						}
+					},
+					{
+						"caption": "Safari",
+						"command": "side_bar_open_in_browser",
+						"args": {
+							"paths": [],
+							"type": "testing",
+							"browser": "safari"
+						}
+					},
+					{"caption": "-"
+					},
+					{
+						"caption": "Internet Explorer",
+						"command": "side_bar_open_in_browser",
+						"args": {
+							"paths": [],
+							"type": "testing",
+							"browser": "ie"
+						}
+					},
+					{
+						"caption": "Edge",
+						"command": "side_bar_open_in_browser",
+						"args": {
+							"paths": [],
+							"type": "testing",
+							"browser": "edge"
+						}
+					},
+					{"caption": "-"
+					},
+					{
+						"caption": "Open In All Browsers",
+						"command": "side_bar_open_browsers"
+					}
+				]
+			},
+			{
+				"caption": "Edit Applications…",
+				"id": "side-bar-files-open-with-edit-applications",
+				"command": "side_bar_files_open_with_edit_applications",
+				"args": {"paths": []}
+			},
+			{"caption": "-", "id": "side-bar-files-open-with-edit-applications-separator"}
+		]
+	},
+	{
 		"caption": "Edit",
 		"id": "side-bar-edit",
 		"command": "side_bar_edit",
@@ -51,143 +184,10 @@
 		"args": {"paths": []}
 	},
 	{
-		"caption": "Open / Run",
-		"id": "side-bar-open",
-		"command": "side_bar_open",
-		"args": {"paths": []}
-	},
-	{
-		"caption": "Open In Browser",
-		"id": "side-bar-open-in-browser",
-		"children": [
-			{
-				"caption": "Default",
-				"command": "side_bar_open_in_browser",
-				"args": {"paths": []}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Firefox",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "firefox"
-				}
-			},
-			{
-				"caption": "Firefox Developer Edition",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "firefox-developer-edition"
-				}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Chromium",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "chromium"
-				}
-			},
-			{
-				"caption": "Chrome",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "chrome"
-				}
-			},
-			{
-				"caption": "Canary",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "canary"
-				}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Opera",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "opera"
-				}
-			},
-			{
-				"caption": "Safari",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "safari"
-				}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Internet Explorer",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "ie"
-				}
-			},
-			{
-				"caption": "Edge",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "edge"
-				}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Open In All Browsers",
-				"command": "side_bar_open_browsers"
-			}
-		]
-	},
-	{
-		"caption": "Open In New Window",
-		"id": "side-bar-open-in-new-window",
-		"command": "side_bar_open_in_new_window",
-		"args": {"paths": []}
-	},
-	{
 		"caption": "Open With Finder",
 		"id": "side-bar-open-with-finde",
 		"command": "side_bar_open_with_finder",
 		"args": {"paths": []}
-	},
-	{
-		"caption": "Open With",
-		"id": "side-bar-files-open-with",
-
-		"children": [
-			{"caption": "-", "id": "side-bar-files-open-with-edit-application-separator"},
-			{
-				"caption": "Edit Applications…",
-				"id": "side-bar-files-open-with-edit-applications",
-				"command": "side_bar_files_open_with_edit_applications",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-files-open-with-edit-applications-separator"}
-		]
 	},
 	{
 		"caption": "Reveal",
