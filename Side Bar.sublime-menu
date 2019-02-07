@@ -274,172 +274,6 @@
 		"args": {"paths": []}
 	},
 	{
-		"caption": "Copy Name",
-		"id": "side-bar-clip-copy-name",
-		"command": "side_bar_copy_name",
-		"args": {"paths": []}
-	},
-	{
-		"caption": "Copy Path",
-		"id": "side-bar-clip-copy-path",
-		"command": "side_bar_copy_path_relative_from_project_encoded",
-		"args": {"paths": []}
-	},
-	{
-		"caption": "Copy Path (Windows)",
-		"id": "side-bar-clip-copy-path-windows",
-		"command": "side_bar_copy_path_absolute_from_project_encoded_windows",
-		"args": {"paths": []}
-	},
-	{
-		"caption": "Copy Dir Path",
-		"id": "side-bar-clip-copy-dir-path",
-		"command": "side_bar_copy_dir_path",
-		"args": {"paths": []}
-	},
-	{
-		"caption": "Copy as Text",
-		"id": "side-bar-clip-copy-as",
-		"children": [
-			{
-				"caption": "Relative Path To Last Selected View",
-				"id": "side-bar-clip-copy-path-relative-to-last-selected-view",
-				"command": "side_bar_copy_path_relative_to_last_selected_view",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-clip-copy-path-relative-to-last-selected-view-separator"},
-			{
-				"caption": "Relative Path From View Encoded",
-				"id": "side-bar-clip-copy-path-relative-from-view-encoded",
-				"command": "side_bar_copy_path_relative_from_view_encoded",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "Relative Path From View",
-				"id": "side-bar-clip-copy-path-relative-from-view",
-				"command": "side_bar_copy_path_relative_from_view",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-clip-copy-path-relative-from-view-separator"},
-
-			{
-				"caption": "Relative Path From Project Encoded",
-				"id": "side-bar-clip-copy-path-relative-from-project-encoded",
-				"command": "side_bar_copy_path_relative_from_project_encoded",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "Relative Path From Project",
-				"id": "side-bar-clip-copy-path-relative-from-project",
-				"command": "side_bar_copy_path_relative_from_project",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-clip-copy-path-relative-from-project-separator"},
-
-			{
-				"caption": "Absolute Path From Project Encoded",
-				"id": "side-bar-clip-copy-path-absolute-from-project-encoded",
-				"command": "side_bar_copy_path_absolute_from_project_encoded",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "Absolute Path From Project",
-				"id": "side-bar-clip-copy-path-absolute-from-project",
-				"command": "side_bar_copy_path_absolute_from_project",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-clip-copy-path-absolute-from-project-separator"},
-
-			{
-				"caption": "Path as URI",
-				"id": "side-bar-clip-copy-path-encoded",
-				"command": "side_bar_copy_path_encoded",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "Path",
-				"id": "side-bar-clip-copy-path",
-				"command": "side_bar_copy_path",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "Path Quoted",
-				"id": "side-bar-clip-copy-path-quoted",
-				"command": "side_bar_copy_path_quoted",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-clip-copy-path-separator"},
-
-			{
-				"caption": "Name Encoded",
-				"id": "side-bar-clip-copy-name-encoded",
-				"command": "side_bar_copy_name_encoded",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-clip-copy-name-encoded-separator"},
-
-			{
-				"caption": "URL",
-				"id": "side-bar-clip-copy-url",
-				"command": "side_bar_copy_url",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "URL Decoded",
-				"id": "side-bar-clip-copy-url-decoded",
-				"command": "side_bar_copy_url_decoded",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-clip-copy-url-separator"},
-
-			{
-				"caption": "Tag a",
-				"id": "side-bar-clip-copy-tag-a",
-				"command": "side_bar_copy_tag_ahref",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "Tag img",
-				"id": "side-bar-clip-copy-tag-img",
-				"command": "side_bar_copy_tag_img",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "Tag script",
-				"id": "side-bar-clip-copy-tag-script",
-				"command": "side_bar_copy_tag_script",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "Tag style",
-				"id": "side-bar-clip-copy-tag-style",
-				"command": "side_bar_copy_tag_style",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-clip-copy-tag-separator"},
-			{
-				"caption": "Project Folders",
-				"id": "side-bar-clip-copy-project-directories",
-				"command": "side_bar_copy_project_directories",
-				"args": {"paths": []}
-			},
-			{"caption": "-", "id": "side-bar-clip-copy-project-directories-separator"},
-			{
-				"caption": "Content as UTF-8",
-				"id": "side-bar-clip-copy-content-utf8",
-				"command": "side_bar_copy_content_utf8",
-				"args": {"paths": []}
-			},
-			{
-				"caption": "Content as Data URI",
-				"id": "side-bar-clip-copy-content-base-64",
-				"command": "side_bar_copy_content_base64",
-				"args": {"paths": []}
-			}
-		]
-	},
-
-	{
 		"caption": "Paste",
 		"id": "side-bar-clip-paste",
 		"command": "side_bar_paste",
@@ -456,6 +290,67 @@
 			"paths": [],
 			"in_parent": "True"
 		}
+	},
+	{
+		"caption": "Copy as Text",
+		"id": "side-bar-clip-copy-as",
+		"children": [
+			{
+				"caption": "Copy Name",
+				"id": "side-bar-clip-copy-name",
+				"command": "side_bar_copy_name",
+				"args": {"paths": []}
+			},
+			{
+				"caption": "Copy Dir Path",
+				"id": "side-bar-clip-copy-dir-path",
+				"command": "side_bar_copy_dir_path",
+				"args": {"paths": []}
+			},
+			{
+				"caption": "Copy Path",
+				"id": "side-bar-clip-copy-path",
+				"command": "side_bar_copy_path",
+				"args": {"paths": []}
+			},
+			{"caption": "-", "id": "side-bar-clip-copy-path-separator"},
+
+			{
+				"caption": "Relative Path From Project",
+				"id": "side-bar-clip-copy-path-relative-from-project",
+				"command": "side_bar_copy_path_relative_from_project",
+				"args": {"paths": []}
+			},
+			{
+				"caption": "Relative Path From View",
+				"id": "side-bar-clip-copy-path-relative-from-view",
+				"command": "side_bar_copy_path_relative_from_view",
+				"args": {"paths": []}
+			},
+			{
+				"caption": "Relative Path To Last Selected View",
+				"id": "side-bar-clip-copy-path-relative-to-last-selected-view",
+				"command": "side_bar_copy_path_relative_to_last_selected_view",
+				"args": {"paths": []}
+			},
+			{"caption": "-", "id": "side-bar-clip-copy-path-relative-from-project-separator"},
+			{"caption": "-", "id": "side-bar-clip-copy-path-relative-from-view-separator"},
+			{"caption": "-", "id": "side-bar-clip-copy-path-relative-to-last-selected-view-separator"},
+
+			{
+				"caption": "Project Folders",
+				"id": "side-bar-clip-copy-project-directories",
+				"command": "side_bar_copy_project_directories",
+				"args": {"paths": []}
+			},
+			{"caption": "-", "id": "side-bar-clip-copy-project-directories-separator"},
+			{
+				"caption": "Content as UTF-8",
+				"id": "side-bar-clip-copy-content-utf8",
+				"command": "side_bar_copy_content_utf8",
+				"args": {"paths": []}
+			}
+		]
 	},
 	{"caption": "-", "id": "side-bar-clip-separator"},
 	{
